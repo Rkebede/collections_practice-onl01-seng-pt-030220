@@ -42,6 +42,7 @@ end
 def find_a(words)
   letter = a
   words.find do |letter|
+end
   words
 end
 

@@ -47,8 +47,11 @@ end
 
 
 def sum_array(nums)
-  nums.inject
-  
+  num = []
+  nums.each do |num| 
+   num = sum+=a 
+  end
+  num
 end
 
 

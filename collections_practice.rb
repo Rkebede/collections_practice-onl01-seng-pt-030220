@@ -30,7 +30,8 @@ end
 
 
 def kesha_maker(letters)
-  name.each
+  letters.each do { |letter[2]| }
+  
 end 
 
 

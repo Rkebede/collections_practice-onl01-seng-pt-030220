@@ -35,7 +35,7 @@ def kesha_maker(names)
   new_name = name.sub(name[2],"$")
   new_names << new_name
   end
-  new_name
+  new_names
 end
  
 

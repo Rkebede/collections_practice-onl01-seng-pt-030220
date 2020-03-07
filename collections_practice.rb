@@ -33,7 +33,7 @@ def kesha_maker(names)
   name = []
   names.each do |name|
   new_name = name.replace([2],"$")
-  name << new_letter
+  name << new_name
   end
   names
 end

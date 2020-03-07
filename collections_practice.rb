@@ -30,9 +30,10 @@ end
 
 
 def kesha_maker(letters)
-  new_letters = []
+  name = []
   letters.each do { |letter[2]| }
-  letter
+  new_letter = letter.replace([2],"$")
+  name << new_letter
   end
 end 
 

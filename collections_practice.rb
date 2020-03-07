@@ -29,7 +29,7 @@ def reverse_array(num)
 end
 
 
-def kesha_maker(letters)
+def kesha_maker(names)
   name = []
   letters.each do |letter|
   new_letter = letter.replace([2],"$")

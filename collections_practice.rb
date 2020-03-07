@@ -31,7 +31,7 @@ end
 
 def kesha_maker(letters)
   name = []
-  letters.each do |letter[2]|
+  letters.each do |letter|
   new_letter = letter.replace([2],"$")
   name << new_letter
   end

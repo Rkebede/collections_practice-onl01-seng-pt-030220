@@ -13,5 +13,6 @@ def sort_array_char_count(characters)
 end
 
 
-def swap_elements()
+def swap_elements(nums)
+  nums.sort 
   

@@ -57,7 +57,7 @@ end
 
 
 def add_s(words)
-  word.map do |word|
+  words.map do |word|
     if word = word[1]
     else 
       word + "s"

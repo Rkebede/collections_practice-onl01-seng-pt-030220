@@ -40,8 +40,8 @@ end
  
 
 def find_a(words)
-  words.find do |word|
-    word
+  words.select do |a|
+    
 end
   words
 end

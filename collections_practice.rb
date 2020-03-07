@@ -19,7 +19,8 @@ end
 
 
 def swap_elements_from_to(array, index, destination_index)
-  array.swap [0,3] 
+  nums[0], nums[3] = nums[0], nums[3]
+  nums
 end
 
   

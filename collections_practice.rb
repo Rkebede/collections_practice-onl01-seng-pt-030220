@@ -3,6 +3,6 @@ def sort_array_asc(nums)
 end
 
 def sort_array_desc (nums)
-  nums.sort { |nums| 
+  nums.sort { |x,y| y <=> x } 
 end
   

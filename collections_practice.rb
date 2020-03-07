@@ -41,7 +41,7 @@ end
 
 def find_a(words)
   words.find do |word| 
-    word.first(30) = "a"
+    word.first(a) = "a"
 end
   words
 end

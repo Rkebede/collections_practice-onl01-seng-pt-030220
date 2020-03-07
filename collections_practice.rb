@@ -39,9 +39,7 @@ def kesha_maker(names)
 end
  
 
-def find_a(characters)
-  characters
-  
+def find_a(words)
   
 end
 

@@ -9,7 +9,7 @@ end
 
 
 def sort_array_char_count(characters)
-  characters.sort 
+  characters.sort { |x,y| x <=> y }
 end
 
 

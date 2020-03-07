@@ -40,8 +40,7 @@ end
  
 
 def find_a(words)
-  words.find do |word|
-    word
+  words.find do |word| word.first = a
 end
   words
 end

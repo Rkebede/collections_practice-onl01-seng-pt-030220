@@ -35,6 +35,7 @@ def kesha_maker(names)
   new_letter = letter.replace([2],"$")
   name << new_letter
   end
+  names
 end
  
 

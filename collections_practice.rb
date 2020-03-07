@@ -9,11 +9,12 @@ end
 
 
 def sort_array_char_count(characters)
-  characters.sort { |x,y| x <=> y }
+  characters.downcase.sort { |x,y| x <=> y }
 end
 
 
 def swap_elements(nums)
+  
   nums.sort 
 end 
   

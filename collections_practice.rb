@@ -63,6 +63,6 @@ def add_s(words)
       word + "s"
     end 
   end
-  words
+  word
 end
   

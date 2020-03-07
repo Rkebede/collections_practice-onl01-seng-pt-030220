@@ -3,6 +3,6 @@ def sort_array_asc(num)
 end
 
 def sort_array_desc (num)
-  puts num
+  num.
 end
   

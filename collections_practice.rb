@@ -13,12 +13,12 @@ def sort_array_char_count(characters)
 end
 
 def swap_elements(nums)
-  nums.sort { |x,y| y <=> x }
+  nums.swap { |x,y| y <=> x }
 end 
 
 
 def swap_elements_from_to(array, index, destination_index)
-  array.swap![0,3] 
+  array.swap [0,3] 
 end
 
   

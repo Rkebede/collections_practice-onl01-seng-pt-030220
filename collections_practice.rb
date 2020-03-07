@@ -47,12 +47,12 @@ end
 
 
 def sum_array(nums)
-  num = []
+  total_num = []
   sum = 0
   nums.each do |num| 
-   sum += num 
+  num << sum += num 
   end
-  num
+  total_num
 end
 
 

@@ -50,7 +50,7 @@ def sum_array(nums)
   total_num = []
   sum = 0
   nums.each do |num| 
-  total_num << sum += num 
+  total_num = sum += num 
   end
   total_num
 end

@@ -56,7 +56,11 @@ def sum_array(nums)
 end
 
 
-def add_s
-  
+def add_s(words)
+  word.map do |word|
+    if word = word[1]
+    else 
+      word + "s"
+    end 
 end
   

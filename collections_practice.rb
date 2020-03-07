@@ -9,8 +9,7 @@ end
 
 
 def sort_array_char_count(characters)
-  characters.downcase
-  characters.sort { |x,y| x <=> y }
+  characters.sort { |x| x.downcase}
 end
 
 

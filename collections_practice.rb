@@ -40,7 +40,7 @@ end
  
 
 def find_a(characters)
-  
+  characters
   
   
 end

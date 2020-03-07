@@ -30,10 +30,10 @@ end
 
 
 def kesha_maker(names)
-  name = []
+  new_names = []
   names.each do |name|
   new_name = name.replace([2],"$")
-  name << new_name
+  new_names << new_name
   end
   names
 end

@@ -35,6 +35,9 @@ describe 'collections practice' do
     it 'takes three arguments and moves the first element to the third place' do
       expect(swap_elements_from_to(["a", "b", "c"], 0, 2)).to eq(["c", "b", "a"])
     end
+    it 'takes three arguments and moves the first element to the third place' do
+      expect(swap_elements_from_to(["a", "b", "c"], 2,1)).to eq(["a", "c", "b"])
+    end
   end
 
   # Question 5

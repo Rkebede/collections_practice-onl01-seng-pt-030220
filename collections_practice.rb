@@ -35,8 +35,8 @@ def kesha_maker(letters)
   new_letter = letter.replace([2],"$")
   name << new_letter
   end
-  end
-end 
+end
+ 
 
 
 def find_a

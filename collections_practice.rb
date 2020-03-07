@@ -40,8 +40,8 @@ end
  
 
 def find_a(words)
-  words.select do |a| a.first
-    
+  words.select do |word| 
+    a.first == "a"
 end
   words
 end

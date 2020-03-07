@@ -32,7 +32,7 @@ end
 def kesha_maker(names)
   new_names = []
   names.each do |name|
-  new_name = name.sub([2],"$")
+  new_name = name.sub(name[2],"$")
   new_names << new_name
   end
   names

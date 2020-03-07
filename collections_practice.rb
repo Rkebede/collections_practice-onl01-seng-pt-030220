@@ -13,7 +13,7 @@ def sort_array_char_count(characters)
 end
 
 def swap_elements(nums)
-  nums.sort { |x[1],y[2]| y <=> x }
+  nums.sort { |x,y| y <=> x }
 end 
 
 

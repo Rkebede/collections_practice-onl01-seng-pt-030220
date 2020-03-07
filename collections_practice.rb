@@ -29,5 +29,19 @@ def reverse_array(num)
 end
 
 
+def kesha_maker(letters)
+  name.each
+end 
 
+
+def find_a
+end
+
+
+def sum_array
+end
+
+
+def add_s
+end
   

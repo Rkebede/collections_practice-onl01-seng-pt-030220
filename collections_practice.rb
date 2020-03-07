@@ -1,8 +1,8 @@
-def sort_array_asc(num)
- num.sort
+def sort_array_asc(nums)
+ nums.sort
 end
 
-def sort_array_desc (num)
-  num.
+def sort_array_desc (nums)
+  nums.sort { |nums| 
 end
   

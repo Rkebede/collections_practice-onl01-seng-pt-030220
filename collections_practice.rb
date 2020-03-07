@@ -12,9 +12,9 @@ def sort_array_char_count(characters)
   characters.sort_by { |x| x.downcase}
 end
 
-def swap_elements(nums)
- n nums[1], nums[2] = nums[2], nums[1]
-  
+def swap_elements(nums) 
+  nums[1], nums[2] = nums[2], nums[1]
+  nums
 end 
 
 

@@ -39,7 +39,6 @@ def kesha_maker(names)
 end
  
 
-
 def find_a
 end
 
